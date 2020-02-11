@@ -16,7 +16,7 @@ def directors_totals(nds)
   result = {}
   ri = 0 
     while ri < nds.length do 
-      binding.pry
+      binding.pry #nds[ri][:name]
       ri += 1
     end 
   # result = {}
