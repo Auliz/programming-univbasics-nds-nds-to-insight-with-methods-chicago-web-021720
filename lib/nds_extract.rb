@@ -21,19 +21,5 @@ def directors_totals(nds)
       result[director[:name]] = gross_for_director(director)
       ri += 1
     end 
-  # result = {}
-  # total_gross = 0
-  # ri = 0 # row index
-  # while ri < nds.length do 
-  #   ci = 0 # column index
-  #   name = ""
-  #     while ci < nds[ri][:movies].length do 
-  #       total_gross += gross_for_director(nds)
-  #       name = nds[ri][:movies][ci][:name]
-  #       result[name] = total_gross
-  #       ci += 1
-  #     end 
-  #   ri += 1
-  # end 
    result
 end
