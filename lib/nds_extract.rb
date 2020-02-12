@@ -35,5 +35,5 @@ def directors_totals(nds)
   #     end 
   #   ri += 1
   # end 
-  # result
+   result
 end
